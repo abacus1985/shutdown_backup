@@ -26,7 +26,7 @@ date
 echo
 
 # Esegue il backup con tar.
-tar czf $dest$archive_file $backup_files --exclude "/home/abacus/Documenti/Biblioteca/"
+tar czf $dest$archive_file $backup_files --exclude "/home/abacus/<file da non copiare>"
 
 # Stampa messaggio di fine backup.
 echo
